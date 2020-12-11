@@ -21,8 +21,8 @@ defaults:
     layout: post
 email: may4eto@hotmail.com
 description: A blog about Japan
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: may4eto
 github_username: may4eto
 theme: minima

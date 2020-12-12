@@ -1,0 +1,21 @@
+---
+title: A night in Japan
+layout: default
+---
+
+ <h1>{{site.title}}</h1>
+
+ <div class="blog-posts">
+        {% for post in site.posts %}
+        <div class="blog-post">
+            <h2>{{post.title}}</h2>
+            <p>{{post.excerpt}}</p>
+            <a href="{{post.url}}">
+                <p class="read-more">Read more
+                <img src="/assets/images/chevron.svg" alt="">
+                </p>
+        </div>
+        {% endfor %}
+        </a>
+ </div>
+

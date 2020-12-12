@@ -9,11 +9,13 @@ layout: default
         {% for post in site.posts %}
         <div class="blog-post">
             <h2>{{post.title}}</h2>
+            <img src="{{post.featured-image}}" alt="">
             <p>{{post.excerpt}}</p>
             <a href="{{post.url}}">
                 <p class="read-more">Read more
                 <img src="/assets/images/chevron.svg" alt="">
                 </p>
+            </a>
         </div>
         {% endfor %}
         </a>

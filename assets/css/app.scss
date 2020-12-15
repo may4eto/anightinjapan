@@ -7,6 +7,9 @@ $background: #f7f9ff;
 $black: #0c0c0c;
 $red: #ff3500;
 $typography: Roboto;
+$breakpoint-screen: 1300px;
+$breakpoint-tablet: 750px;
+
 
 body {
     background-color: $background;
@@ -93,4 +96,21 @@ div.post {
         max-width: 540px;
         margin-bottom: 24px;
     }
+}
+
+
+div.links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    a {
+        display: inline-block; 
+        text-decoration: none;
+        color: $black;
+        font-weight: 700;
+    }
+}
+
+img.arrow-back {
+    transform: scaleX(-1);
 }
